@@ -1,0 +1,658 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WeChat menu setting"
+            android:textColor="#ffd700"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1st menu 1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_menu_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="menu_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_menu_1_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="menu_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 1_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_1_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 1_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_2_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 1_3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_3_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 1_4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_4_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 1_5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_1_5_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1st menu 2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_menu_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="menu_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_menu_2_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="menu_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 2_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_1_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 2_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_2_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 2_3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_3_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 2_4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_4_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 2_5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_2_5_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_menu_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1st menu 3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_menu_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="menu_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_menu_3_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="menu_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 3_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_1_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 3_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_2_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 3_3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_3_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 3_4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_4_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub menu 3_5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="sub_name" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etv_sub_menu_3_5_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="http://domain"
+                        android:inputType="textUri"
+                        android:tag="sub_url" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create menu" />
+    </LinearLayout>
+
+</ScrollView>
